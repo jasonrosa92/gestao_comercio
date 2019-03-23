@@ -1,1 +1,1 @@
-web: gunicorn gestao_empresarial.wsgi --log-file -
+web: gunicorn gestao_empresarial:app --log-file -
