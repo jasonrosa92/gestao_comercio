@@ -1,1 +1,1 @@
-web: gunicorn gestao_empresarial:app --log-file -
+echo "web: gunicorn GESTAO_EMPRESAS.wsgi --log-file -" > Procfile
