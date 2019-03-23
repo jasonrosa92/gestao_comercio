@@ -1,1 +1,1 @@
-web: gunicorn djangosige.wsgi --log-file -
+web: gunicorn gestao_empresarial.wsgi --log-file -
